@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import {HelloMarkComponent} from './hello-mark.component';
+import { HelloMarkComponent } from './hello-mark.component';
+import { FieldState } from '../shared/FieldState';
 
 describe('HelloMarkComponent', () => {
   let component: HelloMarkComponent;
