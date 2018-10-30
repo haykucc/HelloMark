@@ -11,5 +11,4 @@ export class HelloMarkComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

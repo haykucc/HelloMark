@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HelloMarkComponent } from './hello-mark.component';
+import {HelloMarkComponent} from './hello-mark.component';
 
 describe('HelloMarkComponent', () => {
   let component: HelloMarkComponent;
@@ -16,10 +16,21 @@ describe('HelloMarkComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(HelloMarkComponent);
     component = fixture.componentInstance;
+    spyOn(component, 'initGame');
+
     fixture.detectChanges();
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('expect game field to initialize', () => {
+    expect(component.initGame).toHaveBeenCalled();
+    expect(component.gameField).toEqual([
+      [FieldState.EMPTY, FieldState.EMPTY, FieldState.EMPTY],
+      [FieldState.EMPTY, FieldState.EMPTY, FieldState.EMPTY],
+      [FieldState.EMPTY, FieldState.EMPTY, FieldState.EMPTY]
+    ]);
   });
 });
