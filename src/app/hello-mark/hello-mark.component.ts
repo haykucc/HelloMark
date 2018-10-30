@@ -25,6 +25,5 @@ export class HelloMarkComponent implements OnInit {
       [FieldState.EMPTY, FieldState.EMPTY, FieldState.EMPTY],
       [FieldState.EMPTY, FieldState.EMPTY, FieldState.EMPTY]
     ];
-    console.log(this.gameField);
   }
 }
