@@ -5,7 +5,14 @@ import { FieldState } from '../shared/FieldState';
 @Component({
   selector: 'hm-hello-mark',
   templateUrl: './hello-mark.component.html',
-  styles: []
+  styles: [`
+  .board-element {
+    border: 3px solid rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  `]
 })
 export class HelloMarkComponent implements OnInit {
 
@@ -25,5 +32,9 @@ export class HelloMarkComponent implements OnInit {
       [FieldState.EMPTY, FieldState.EMPTY, FieldState.EMPTY],
       [FieldState.EMPTY, FieldState.EMPTY, FieldState.EMPTY]
     ];
+  }
+
+  helpArray(length: number): number[] {
+    return new Array<number>(length);
   }
 }
