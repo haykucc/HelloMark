@@ -1,0 +1,55 @@
+2018-11-01T15:31:11.622809+00:00 app[api]: Release v1 created by user michael.wallner@fau.de
+2018-11-01T15:31:11.622809+00:00 app[api]: Initial release by user michael.wallner@fau.de
+2018-11-01T15:31:11.718772+00:00 app[api]: Enable Logplex by user michael.wallner@fau.de
+2018-11-01T15:31:11.718772+00:00 app[api]: Release v2 created by user michael.wallner@fau.de
+2018-11-01T15:32:07.000000+00:00 app[api]: Build started by user michael.wallner@fau.de
+2018-11-01T15:33:11.499485+00:00 app[api]: Scaled to web@1:Free by user michael.wallner@fau.de
+2018-11-01T15:33:11.472176+00:00 app[api]: Deploy 128f15f7 by user michael.wallner@fau.de
+2018-11-01T15:33:11.472176+00:00 app[api]: Release v3 created by user michael.wallner@fau.de
+2018-11-01T15:33:15.498489+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-11-01T15:33:18.573132+00:00 heroku[web.1]: Process exited with status 1
+2018-11-01T15:33:18.495715+00:00 app[web.1]: 
+2018-11-01T15:33:18.495747+00:00 app[web.1]: > hello-mark@0.0.0 start /app
+2018-11-01T15:33:18.495749+00:00 app[web.1]: > ng serve
+2018-11-01T15:33:18.495751+00:00 app[web.1]: 
+2018-11-01T15:33:18.501606+00:00 app[web.1]: sh: 1: ng: not found
+2018-11-01T15:33:18.506523+00:00 app[web.1]: npm ERR! file sh
+2018-11-01T15:33:18.506843+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-11-01T15:33:18.507107+00:00 app[web.1]: npm ERR! errno ENOENT
+2018-11-01T15:33:18.507407+00:00 app[web.1]: npm ERR! syscall spawn
+2018-11-01T15:33:18.508861+00:00 app[web.1]: npm ERR! hello-mark@0.0.0 start: `ng serve`
+2018-11-01T15:33:18.509030+00:00 app[web.1]: npm ERR! spawn ENOENT
+2018-11-01T15:33:18.509260+00:00 app[web.1]: npm ERR!
+2018-11-01T15:33:18.509484+00:00 app[web.1]: npm ERR! Failed at the hello-mark@0.0.0 start script.
+2018-11-01T15:33:18.509768+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2018-11-01T15:33:18.518442+00:00 app[web.1]: 
+2018-11-01T15:33:18.518852+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2018-11-01T15:33:18.519132+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2018-11-01T15_33_18_511Z-debug.log
+2018-11-01T15:33:18.598600+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-01T15:33:18.600745+00:00 heroku[web.1]: State changed from crashed to starting
+2018-11-01T15:33:23.769173+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-11-01T15:33:24.000000+00:00 app[api]: Build succeeded
+2018-11-01T15:33:27.913401+00:00 heroku[web.1]: Process exited with status 1
+2018-11-01T15:33:27.935255+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-01T15:33:27.769252+00:00 app[web.1]: 
+2018-11-01T15:33:27.769273+00:00 app[web.1]: > hello-mark@0.0.0 start /app
+2018-11-01T15:33:27.769274+00:00 app[web.1]: > ng serve
+2018-11-01T15:33:27.769276+00:00 app[web.1]: 
+2018-11-01T15:33:27.777815+00:00 app[web.1]: sh: 1: ng: not found
+2018-11-01T15:33:27.790611+00:00 app[web.1]: npm ERR! file sh
+2018-11-01T15:33:27.791036+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-11-01T15:33:27.791372+00:00 app[web.1]: npm ERR! errno ENOENT
+2018-11-01T15:33:27.791689+00:00 app[web.1]: npm ERR! syscall spawn
+2018-11-01T15:33:27.793884+00:00 app[web.1]: npm ERR! hello-mark@0.0.0 start: `ng serve`
+2018-11-01T15:33:27.794137+00:00 app[web.1]: npm ERR! spawn ENOENT
+2018-11-01T15:33:27.794495+00:00 app[web.1]: npm ERR!
+2018-11-01T15:33:27.794726+00:00 app[web.1]: npm ERR! Failed at the hello-mark@0.0.0 start script.
+2018-11-01T15:33:27.795011+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2018-11-01T15:33:27.814454+00:00 app[web.1]: 
+2018-11-01T15:33:27.814709+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2018-11-01T15:33:27.814888+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2018-11-01T15_33_27_797Z-debug.log
+2018-11-01T15:33:46.763008+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=damp-refuge-59803.herokuapp.com request_id=5d182d65-699b-4587-80ab-822668fdc066 fwd="117.211.92.90" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-01T15:33:47.782684+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=damp-refuge-59803.herokuapp.com request_id=dd43e967-4ea9-4b4b-9e68-14c5ec04eb54 fwd="117.211.92.90" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-01T15:34:28.492661+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=damp-refuge-59803.herokuapp.com request_id=2cc15846-2e18-43fc-8cf8-c64125b910e0 fwd="117.211.92.90" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-01T15:34:29.200652+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=damp-refuge-59803.herokuapp.com request_id=dbcbc5e3-c81d-4059-a2de-0f21219b079a fwd="117.211.92.90" dyno= connect= service= status=503 bytes= protocol=https
+Batchvorgang abbrechen (J/N)? 
